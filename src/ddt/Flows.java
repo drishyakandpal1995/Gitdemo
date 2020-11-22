@@ -8,7 +8,7 @@ public class Flows {
 
 	public  static void login(String url,String Username, String Password, WebDriver driver) 
 	{
-		
+		//to get the url
         driver.get(url);
         driver.findElement(By.id("ctl00_PageContent_Login1_UserName")).sendKeys(Username);
         driver.findElement(By.id("ctl00_PageContent_Login1_Password")).sendKeys(Password);
